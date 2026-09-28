@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Praveen Sunnapu — Python developer building high-performance FastAPI services and scalable backend systems."
+    />
+    <title>Praveen Sunnapu | Python & FastAPI Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#home">Praveen Sunnapu</a>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#fastapi">FastAPI</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-layout reveal">
+          <div class="hero-copy">
+            <p class="tag">Python Developer • FastAPI Specialist</p>
+            <h1>Building production-ready Python APIs with speed and precision.</h1>
+            <p class="lead">
+              I design backend systems that are fast, maintainable, and reliable —
+              from async FastAPI services to secure integrations and cloud
+              deployment pipelines.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Explore Projects</a>
+              <a class="btn btn-secondary" href="#contact">Let’s Build Together</a>
+            </div>
+          </div>
+
+          <aside class="profile-card">
+            <img
+              src="https://github.com/user-attachments/assets/0eed44d2-0887-4347-8f54-e3c370bc4b19"
+              alt="Portrait of Praveen Sunnapu"
+              class="profile-image"
+            />
+            <div class="profile-meta">
+              <h2>Praveen Sunnapu</h2>
+              <p>Python Backend Engineer</p>
+              <span>FastAPI • AsyncIO • PostgreSQL • Docker</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container reveal">
+          <h2>Python Development Experience</h2>
+          <p>
+            I have hands-on experience building robust Python applications for
+            APIs, automation, and data workflows. My work emphasizes clean
+            architecture, testable code, and high observability for smooth
+            operations in production.
+          </p>
+          <div class="highlights">
+            <article class="chip">Designing modular service-oriented backend systems</article>
+            <article class="chip">Creating async workflows for high-throughput use cases</article>
+            <article class="chip">Optimizing SQL queries and API latency bottlenecks</article>
+            <article class="chip">Implementing CI/CD for reliable service releases</article>
+          </div>
+        </div>
+      </section>
+
+      <section id="fastapi" class="section section-alt">
+        <div class="container reveal">
+          <h2>How I Build with FastAPI</h2>
+          <div class="timeline">
+            <article class="step">
+              <h3>1. API Design First</h3>
+              <p>
+                Define clean request/response contracts with Pydantic models,
+                proper validation, and clear error boundaries.
+              </p>
+            </article>
+            <article class="step">
+              <h3>2. Async Performance</h3>
+              <p>
+                Use async endpoints and background tasks to serve concurrent
+                workloads with predictable performance.
+              </p>
+            </article>
+            <article class="step">
+              <h3>3. Production Readiness</h3>
+              <p>
+                Add structured logging, health checks, secure auth, and
+                containerized deployments for stable operations.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container reveal">
+          <h2>Selected Backend Work</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>High-Speed FastAPI Gateway</h3>
+              <p>
+                Built an async gateway service to aggregate multiple upstream
+                APIs with caching, retries, and rate limiting.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Data Processing Pipeline</h3>
+              <p>
+                Implemented Python ETL jobs and event-driven tasks for reliable
+                ingestion and transformation at scale.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Developer Productivity Platform</h3>
+              <p>
+                Created internal tooling with FastAPI + PostgreSQL that improved
+                operational visibility and reduced manual effort.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container reveal">
+          <h2>Let’s Build Something Impactful</h2>
+          <p>
+            If you need a Python/FastAPI developer to build scalable APIs and
+            backend services, I’d love to connect.
+          </p>
+          <a class="btn btn-primary" href="mailto:hello@praveens.me">hello@praveens.me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Praveen Sunnapu. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
