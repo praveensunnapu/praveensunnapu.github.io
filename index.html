@@ -26,7 +26,8 @@
         <a class="logo" href="#home">Praveen Sunnapu</a>
         <nav class="site-nav">
           <a href="#about">About</a>
-          <a href="#fastapi">FastAPI</a>
+          <a href="#stack">Stack</a>
+          <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -37,12 +38,12 @@
       <section class="hero">
         <div class="container hero-layout reveal">
           <div class="hero-copy">
-            <p class="tag">Python Developer • FastAPI Specialist</p>
-            <h1>Building production-ready Python APIs with speed and precision.</h1>
+            <p class="tag">Python Backend Developer</p>
+            <h1>I build practical backend systems that are easy to run and scale.</h1>
             <p class="lead">
-              I design backend systems that are fast, maintainable, and reliable —
-              from async FastAPI services to secure integrations and cloud
-              deployment pipelines.
+              I focus on clear APIs, fast debugging, and shipping useful features.
+              Most of my work is in Python and FastAPI, with data tooling where it
+              adds real product value.
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#projects">Explore Projects</a>
@@ -59,7 +60,7 @@
             <div class="profile-meta">
               <h2>Praveen Sunnapu</h2>
               <p>Python Backend Engineer</p>
-              <span>FastAPI • AsyncIO • PostgreSQL • Docker</span>
+              <span>Python • FastAPI • PostgreSQL • Docker</span>
             </div>
           </aside>
         </div>
@@ -67,74 +68,88 @@
 
       <section id="about" class="section">
         <div class="container reveal">
-          <h2>Python Development Experience</h2>
+          <h2>What I Work On</h2>
           <p>
-            I have hands-on experience building robust Python applications for
-            APIs, automation, and data workflows. My work emphasizes clean
-            architecture, testable code, and high observability for smooth
-            operations in production.
+            I enjoy taking backend ideas from rough requirements to production.
+            That includes API design, database modeling, background jobs, and
+            performance tuning after launch.
           </p>
           <div class="highlights">
-            <article class="chip">Designing modular service-oriented backend systems</article>
-            <article class="chip">Creating async workflows for high-throughput use cases</article>
-            <article class="chip">Optimizing SQL queries and API latency bottlenecks</article>
-            <article class="chip">Implementing CI/CD for reliable service releases</article>
+            <article class="chip reveal-item" style="--delay: 0.05s">Designing clean Python service layers</article>
+            <article class="chip reveal-item" style="--delay: 0.1s">Building FastAPI endpoints with strong validation</article>
+            <article class="chip reveal-item" style="--delay: 0.15s">Working with data using pandas and matplotlib</article>
+            <article class="chip reveal-item" style="--delay: 0.2s">Improving query performance and deployment reliability</article>
           </div>
         </div>
       </section>
 
-      <section id="fastapi" class="section section-alt">
+      <section id="stack" class="section section-alt">
         <div class="container reveal">
           <h2>How I Build with FastAPI</h2>
           <div class="timeline">
-            <article class="step">
+            <article class="step reveal-item" style="--delay: 0.05s">
               <h3>1. API Design First</h3>
               <p>
-                Define clean request/response contracts with Pydantic models,
-                proper validation, and clear error boundaries.
+                Start with clear request/response contracts using Pydantic so APIs
+                stay stable as features grow.
               </p>
             </article>
-            <article class="step">
-              <h3>2. Async Performance</h3>
+            <article class="step reveal-item" style="--delay: 0.1s">
+              <h3>2. Reliable Data Flow</h3>
               <p>
-                Use async endpoints and background tasks to serve concurrent
-                workloads with predictable performance.
+                Combine async handlers, background tasks, and straightforward SQL
+                patterns to keep response times predictable.
               </p>
             </article>
-            <article class="step">
+            <article class="step reveal-item" style="--delay: 0.15s">
               <h3>3. Production Readiness</h3>
               <p>
-                Add structured logging, health checks, secure auth, and
-                containerized deployments for stable operations.
+                Add auth, logging, health checks, and Docker-based deployment so
+                services are easy to operate in production.
               </p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container reveal">
+          <h2>Portfolio Skills</h2>
+          <p>Tools I use often across backend and data-focused projects.</p>
+          <div class="skills-grid">
+            <article class="skill-pill reveal-item" style="--delay: 0.05s">Python</article>
+            <article class="skill-pill reveal-item" style="--delay: 0.1s">FastAPI</article>
+            <article class="skill-pill reveal-item" style="--delay: 0.15s">Matplotlib</article>
+            <article class="skill-pill reveal-item" style="--delay: 0.2s">Pandas</article>
+            <article class="skill-pill reveal-item" style="--delay: 0.25s">PostgreSQL</article>
+            <article class="skill-pill reveal-item" style="--delay: 0.3s">Docker</article>
           </div>
         </div>
       </section>
 
       <section id="projects" class="section">
         <div class="container reveal">
-          <h2>Selected Backend Work</h2>
+          <h2>Selected Work</h2>
           <div class="grid">
-            <article class="card">
-              <h3>High-Speed FastAPI Gateway</h3>
+            <article class="card reveal-item" style="--delay: 0.05s">
+              <h3>FastAPI Service Starter</h3>
               <p>
-                Built an async gateway service to aggregate multiple upstream
-                APIs with caching, retries, and rate limiting.
+                A reusable API starter with auth, logging, health checks, and
+                deployment-friendly structure for quick project kickoffs.
               </p>
             </article>
-            <article class="card">
-              <h3>Data Processing Pipeline</h3>
+            <article class="card reveal-item" style="--delay: 0.1s">
+              <h3>Analytics Reporting Flow</h3>
               <p>
-                Implemented Python ETL jobs and event-driven tasks for reliable
-                ingestion and transformation at scale.
+                Python pipeline for cleaning raw data and generating plotted
+                summaries with matplotlib for weekly business reporting.
               </p>
             </article>
-            <article class="card">
-              <h3>Developer Productivity Platform</h3>
+            <article class="card reveal-item" style="--delay: 0.15s">
+              <h3>Operations Dashboard Backend</h3>
               <p>
-                Created internal tooling with FastAPI + PostgreSQL that improved
-                operational visibility and reduced manual effort.
+                FastAPI + PostgreSQL backend powering status views, task tracking,
+                and lightweight automation for internal operations.
               </p>
             </article>
           </div>
@@ -161,6 +176,21 @@
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
+
+      const revealElements = document.querySelectorAll(".reveal, .reveal-item");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.16 }
+      );
+
+      revealElements.forEach((element) => observer.observe(element));
     </script>
   </body>
 </html>
