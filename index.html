@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio of Praveen Sunnapu — software engineer, builder, and problem solver."
+      content="Praveen Sunnapu — Python developer building high-performance FastAPI services and scalable backend systems."
     />
-    <title>Praveen Sunnapu | Portfolio</title>
+    <title>Praveen Sunnapu | Python & FastAPI Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,13 +17,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
     <header class="site-header">
       <div class="container nav-wrap">
         <a class="logo" href="#home">Praveen Sunnapu</a>
         <nav class="site-nav">
           <a href="#about">About</a>
+          <a href="#fastapi">FastAPI</a>
           <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -31,83 +35,120 @@
 
     <main id="home">
       <section class="hero">
-        <div class="container hero-content">
-          <p class="tag">Software Engineer • Problem Solver • Builder</p>
-          <h1>Hi, I’m Praveen. I build practical digital experiences.</h1>
-          <p class="lead">
-            I create reliable web applications and tools with a focus on clean
-            UX, strong performance, and measurable outcomes.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View Projects</a>
-            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+        <div class="container hero-layout reveal">
+          <div class="hero-copy">
+            <p class="tag">Python Developer • FastAPI Specialist</p>
+            <h1>Building production-ready Python APIs with speed and precision.</h1>
+            <p class="lead">
+              I design backend systems that are fast, maintainable, and reliable —
+              from async FastAPI services to secure integrations and cloud
+              deployment pipelines.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Explore Projects</a>
+              <a class="btn btn-secondary" href="#contact">Let’s Build Together</a>
+            </div>
           </div>
+
+          <aside class="profile-card">
+            <img
+              src="https://github.com/user-attachments/assets/0eed44d2-0887-4347-8f54-e3c370bc4b19"
+              alt="Portrait of Praveen Sunnapu"
+              class="profile-image"
+            />
+            <div class="profile-meta">
+              <h2>Praveen Sunnapu</h2>
+              <p>Python Backend Engineer</p>
+              <span>FastAPI • AsyncIO • PostgreSQL • Docker</span>
+            </div>
+          </aside>
         </div>
       </section>
 
       <section id="about" class="section">
-        <div class="container">
-          <h2>About Me</h2>
+        <div class="container reveal">
+          <h2>Python Development Experience</h2>
           <p>
-            I’m passionate about building products that solve real user
-            problems. I enjoy shipping polished interfaces, scalable backend
-            workflows, and automation that helps teams move faster.
+            I have hands-on experience building robust Python applications for
+            APIs, automation, and data workflows. My work emphasizes clean
+            architecture, testable code, and high observability for smooth
+            operations in production.
           </p>
+          <div class="highlights">
+            <article class="chip">Designing modular service-oriented backend systems</article>
+            <article class="chip">Creating async workflows for high-throughput use cases</article>
+            <article class="chip">Optimizing SQL queries and API latency bottlenecks</article>
+            <article class="chip">Implementing CI/CD for reliable service releases</article>
+          </div>
         </div>
       </section>
 
-      <section id="projects" class="section section-alt">
-        <div class="container">
-          <h2>Featured Projects</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>Project One</h3>
+      <section id="fastapi" class="section section-alt">
+        <div class="container reveal">
+          <h2>How I Build with FastAPI</h2>
+          <div class="timeline">
+            <article class="step">
+              <h3>1. API Design First</h3>
               <p>
-                A modern web application focused on speed, usability, and
-                conversion.
+                Define clean request/response contracts with Pydantic models,
+                proper validation, and clear error boundaries.
               </p>
             </article>
-            <article class="card">
-              <h3>Project Two</h3>
+            <article class="step">
+              <h3>2. Async Performance</h3>
               <p>
-                Automation and integration workflows that reduced repetitive
-                manual effort.
+                Use async endpoints and background tasks to serve concurrent
+                workloads with predictable performance.
               </p>
             </article>
-            <article class="card">
-              <h3>Project Three</h3>
+            <article class="step">
+              <h3>3. Production Readiness</h3>
               <p>
-                A data-driven dashboard with intuitive insights and responsive
-                visualizations.
+                Add structured logging, health checks, secure auth, and
+                containerized deployments for stable operations.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="skills" class="section">
-        <div class="container">
-          <h2>Skills</h2>
-          <ul class="skills">
-            <li>JavaScript / TypeScript</li>
-            <li>React & Frontend Architecture</li>
-            <li>Node.js & API Development</li>
-            <li>Cloud & DevOps Automation</li>
-            <li>Performance Optimization</li>
-            <li>Product-Focused Engineering</li>
-          </ul>
+      <section id="projects" class="section">
+        <div class="container reveal">
+          <h2>Selected Backend Work</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>High-Speed FastAPI Gateway</h3>
+              <p>
+                Built an async gateway service to aggregate multiple upstream
+                APIs with caching, retries, and rate limiting.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Data Processing Pipeline</h3>
+              <p>
+                Implemented Python ETL jobs and event-driven tasks for reliable
+                ingestion and transformation at scale.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Developer Productivity Platform</h3>
+              <p>
+                Created internal tooling with FastAPI + PostgreSQL that improved
+                operational visibility and reduced manual effort.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section id="contact" class="section section-alt">
-        <div class="container">
-          <h2>Contact</h2>
+        <div class="container reveal">
+          <h2>Let’s Build Something Impactful</h2>
           <p>
-            I’m open to collaborations, consulting, and full-time opportunities.
+            If you need a Python/FastAPI developer to build scalable APIs and
+            backend services, I’d love to connect.
           </p>
-          <a class="btn btn-primary" href="mailto:hello@praveens.me"
-            >hello@praveens.me</a
-          >
+          <a class="btn btn-primary" href="mailto:hello@praveens.me">hello@praveens.me</a>
         </div>
       </section>
     </main>
